@@ -4,6 +4,7 @@ body{
    max-width:650px;
    margin:0 auto;
    padding:16px;
+   background-color: whitesmoke;
 
    display:flex;
    flex-direction: column;
