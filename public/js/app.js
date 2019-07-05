@@ -23,7 +23,7 @@ const message_2=document.getElementById("forecast");
 weatherForm.addEventListener("submit",(e)=>{
     e.preventDefault();  //Restricts the refreshing of the page on input
     const location=search.value;
-    const loc_url="http://localhost:3000/weather?address="+location;  
+    const loc_url="/weather?address="+location;  
     message_1.textContent="LOADING....";
     message_2.textContent='';
     fetch(loc_url).then((response)=>{
